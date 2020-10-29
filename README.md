@@ -32,6 +32,9 @@ This project is licensed under the [Apache License, version 2.0](https://github.
 
 - **Liz Lovero** - [lizlove](https://github.com/lizlove)
 
-## 💫 Deploy
+## ToDo:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
+- icon
+- favicon
+- links
+- papers and DOI
