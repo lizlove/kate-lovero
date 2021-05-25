@@ -8,8 +8,11 @@ const Publications = () => (
   <Layout>
     <SEO title="Publications" />
     <h1>Publications</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <p>View my publications on <Link to="https://www.researchgate.net/profile/Kathryn-Lovero">ResearchGate.</Link>
+    </p>
+    <p>
+      <Link to="/">Go back to the homepage</Link>
+    </p>
   </Layout>
 )
 

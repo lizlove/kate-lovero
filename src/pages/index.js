@@ -17,7 +17,7 @@ const IndexPage = () => (
       <Image style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
     </div>
     <br />
-    <Link className="button" to="/publications/">Publications</Link> <br />
+    <Link className="button" to="https://www.researchgate.net/profile/Kathryn-Lovero">Publications</Link> <br />
   </Layout>
 )
 
