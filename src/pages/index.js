@@ -10,14 +10,14 @@ const IndexPage = () => (
     <SEO title="Kate Lovero" />
     <div className="flex-horz">
       <div className="flex-item">
-        <p>Dr. Kate Lovero is Assistant Professor in the <a  rel="noreferrer" target='_blank' href="https://www.columbiapsychiatry.org/research"> Department of Psychiatry</a> at Columbia University Vagelos College of Physicians and Surgeons. Her research uses a community-based participatory approach to identify best practice for implementing evidence-based treatments for adolescent mental illness in low-resource settings. Currently, she is collaborating with the <a rel="noreferrer" target='_blank' href="https://www.misau.gov.mz/">Ministry of Health</a> in Mozambique to evaluate strategies for implementing adolescent mental health services within primary care facilities.</p>
+        <p>Dr. Kate Lovero is an <a rel="noreferrer" target="_blank" href="https://www.publichealth.columbia.edu/people/our-faculty/kll2153">Assistant Professor of Sociomedical Sciences</a> at the <a rel="noreferrer" target="_blank" href="https://www.publichealth.columbia.edu/">Columbia University Mailman School of Public Health</a>. Her research aims to improve the prevention and treatment of adolescent mental health problems in low-resource settings. Specifically, she employs multilevel stakeholder engagement and implementation science methods to generate health care delivery models that address the complex drivers of mental health inequity. She also focuses on the development and validation of measurement instruments for mental health problems as well as the adaptation of implementation science research tools for non-Western settings. Currently, she collaborates with the Mozambican Ministry of Health to develop adolescent mental health services integrated within the national primary care system.</p>
         <p>Prior to her position at Columbia, Dr. Lovero was a <a rel="noreferrer" target='_blank' href="http://ghes.berkeley.edu/">NIH Global Health Equity Scholar</a> and <a  rel="noreferrer" target='_blank' href="https://www.cies.org/program/postdoc">Fulbright Postdoctoral Fellow</a> in Brazil, studying barriers to care and developing methods to improve services for maternal-child health in partnership with local health officials and clinicians.</p>
         <p>Dr. Lovero earned her PhD in Neuroscience from the University of California, San Francisco, where she characterized molecular structures underlying healthy and pathological brain development.</p>
       </div>
       <Image style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} />
     </div>
     <br />
-    <Link className="button" to="https://www.researchgate.net/profile/Kathryn-Lovero">Publications</Link> <br />
+    <Link className="button" to="https://www.ncbi.nlm.nih.gov/myncbi/1TAfAiACGPcQJ/bibliography/public/">Publications</Link> <br />
   </Layout>
 )
 
