@@ -17,7 +17,7 @@ Personal portfolio site for Kate Lovero built using Gatsby.
 1.  **Start developing.**
 
     ```sh
-    gatsby develop
+    npm run develop
     ```
 
 1.  **Open the source code and start editing!**
@@ -32,9 +32,3 @@ This project is licensed under the [Apache License, version 2.0](https://github.
 
 - **Liz Lovero** - [lizlove](https://github.com/lizlove)
 
-## ToDo:
-
-- icon
-- favicon
-- links
-- papers and DOI
