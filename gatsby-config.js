@@ -6,14 +6,18 @@ module.exports = {
     siteUrl: "https://www.katelovero.com",
     title: "Kate Lovero",
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-manifest", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
-      icon: "src/images/klo-icon.png",
+      name: "Kate Lovero",
+      start_url: "/",
       background_color: `#F0F3F5`,
+      display: `standalone`,
       theme_color: `#3E6257`,
+      icon: `src/images/icon.png`,
     }
-  }, "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  },
+   "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
