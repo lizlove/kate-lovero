@@ -10,7 +10,7 @@ const pageStyles = {
   margin: "0 auto",
 }
 const paragraphStyles = {
-  marginBottom: 48,
+  marginBottom: 36,
   lineHeight: 1.65
 }
 const listStyles = {
@@ -33,7 +33,6 @@ const docLink = {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Kate Lovero</title>
       <div className="wrapper" >
         <div className="container">
           <div className="textBlock">
@@ -67,3 +66,5 @@ const IndexPage = () => {
 }
 
 export default IndexPage
+
+export const Head = () =>  <title>Kate Lovero</title>
