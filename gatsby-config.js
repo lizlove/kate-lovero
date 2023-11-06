@@ -6,7 +6,7 @@ module.exports = {
     siteUrl: "https://www.katelovero.com",
     title: "Kate Lovero",
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-manifest", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       icon: "src/images/klo-icon.png",
